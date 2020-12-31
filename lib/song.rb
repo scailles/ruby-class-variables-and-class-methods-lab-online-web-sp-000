@@ -32,6 +32,7 @@ end
   end
   
   def self.artists
+    unique_artists=[]
     @@artists
   end
   
