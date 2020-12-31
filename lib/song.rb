@@ -40,7 +40,8 @@ end
   end
   
   def self.genre_count
-    
+    genre_count={}
+    self.genres.each do 
   end
   
 end
