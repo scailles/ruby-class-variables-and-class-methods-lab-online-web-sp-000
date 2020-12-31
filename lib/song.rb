@@ -33,7 +33,7 @@ end
   
   def self.artists
     unique_artists=[]
-    @@artists
+    if 
   end
   
 end
