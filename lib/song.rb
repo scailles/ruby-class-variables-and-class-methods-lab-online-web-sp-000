@@ -11,7 +11,8 @@ def initialize(name,artist,genre)
   
   @@count += 1
   if @@artists.include?(artist) == false
-    @@artists[artist]=
+    @@artists[artist]=[]
+  end
     
 end
   
