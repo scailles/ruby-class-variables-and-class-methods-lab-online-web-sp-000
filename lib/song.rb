@@ -13,6 +13,8 @@ def initialize(name,artist,genre)
   if @@artists.include?(artist) == false
     @@artists[artist]=[]
   end
+  @@artists << self
+
     
 end
   
