@@ -10,7 +10,8 @@ def initialize(name,artist,genre)
   @genre=genre
   
   @@count += 1
-  if @@artists.include?=artist
+  if @@artists.include?(artist) == false
+    
     
 end
   
